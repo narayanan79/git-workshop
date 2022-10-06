@@ -1,5 +1,5 @@
 <?php
-
+	// coment added by kppreetham
 	if(str_contains($_SERVER['QUERY_STRING'], 'action=customprs') {
 		echo '<div>PR Search</div>';
 	}
