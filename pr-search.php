@@ -7,5 +7,6 @@
 	else {
 		echo '<div>PR details</div>';
 	}
+	echo "Hello world!";
 ?>
 
