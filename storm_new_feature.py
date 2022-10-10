@@ -2,7 +2,7 @@
 
 import psycopg2
 import csv
-conn = psycopg2.connect(database="test", user="edw", password="edw", host="test", port="5432")
+#conn = psycopg2.connect(database="xxx", user="xx", password="xx", host="xxx", port="1234")
 
 cur = conn.cursor()
 try:
@@ -14,12 +14,11 @@ try:
 'FreeBSD Current' as build_flag,
  'Daily' as build_schedule,
  Component_Date as Date
- from mba.build where build_id in              
-
+ from test.test_tab
 """)
 except:
     print "Error Connecting to database"
-with open('/host/storm_build_data.csv', 'w') as f:
+with open('/host/sdc-filer1/vol/junosbuild/junosbuild/METRICS/DailyBuildData/storm_build_data.csv', 'w') as f:
     writer = csv.writer(f, delimiter=',')
     rows = cur.fetchall()
     hed = ['Build Id', 'GRN','Build State', 'Build Name', 'Build Flag', 'Build Schedule', 'Date']
