@@ -2,7 +2,6 @@
 
 import psycopg2
 import csv
-#conn = psycopg2.connect(database="xxx", user="xx", password="xx", host="xxx", port="1234")
 
 cur = conn.cursor()
 try:

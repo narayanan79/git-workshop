@@ -1,0 +1,76 @@
+Create Branch in GitHub Portal
+================================
+
+Step: 1
+======
+Create Brahcn in GitHub Portal 
+https://github.com/narayanan79/git-workshop/branches
+
+Branch Name: IAD_DSA
+
+Step: 2
+Login to Branch in Local
+
+git checkout -b IAD_DSA
+
+Step: 3
+======
+git branch   check current branch
+git status   check the state of your codebase   
+
+
+Step: 4
+=======
+ADD & COMMIT
+git add .   add all untracked files
+git commit -m "IAD Branch check in"
+
+Step:5
+=======
+Take update and the push changes on the origin server
+
+git pull origin IAD_DSA
+git push origin IAD_DSA
+
+
+-----------------------------------------------------------------------------------
+
+How to pull file from GitHub portal, changes then update/push to Git again
+
+Step: 1
+git pull origin IAD_DSA_SP
+
+Step: 2
+Do the required changes in the file 
+
+Step: 3
+ADD & COMMIT
+git add .   add all untracked files
+git commit -m "IAD Branch check in"
+
+Step: 5
+git push origin IAD_DSA
+
+------------------------------------------------------------------------------------
+
+https://github.com/narayanan79/git-workshop/branches
+
+Create a Branch then you will follow the below steps
+
+Step: 1
+git checkout -b IAD_DSA_SP
+git pull origin IAD_DSA_SP
+
+Step: 2
+Do the required changes in the file 
+
+Step: 3
+ADD & COMMIT
+git add .   add all untracked files
+git commit -m "IAD_DSA_SP Check in"
+
+Step: 5
+git push origin IAD_DSA_SP
+
+
+----------------------------------------------------------------------------------------
