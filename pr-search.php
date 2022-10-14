@@ -8,5 +8,6 @@
 	else {
 		echo '<div>PR details Information</div>';
 	}
+
 ?>
 
